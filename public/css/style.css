@@ -772,8 +772,15 @@ li {
     
 }
 
-
-
+.bg-overlay {
+    background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url(../images/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+    height: 50rem;
+    padding-top: 20rem;
+}
 /*------------------------------------------------------ */
 /* Start Feature Section                              */
 /*------------------------------------------------------ */
@@ -1317,6 +1324,11 @@ and (min-width : 551px){
 
 .testimonials .testimonial-author {
 	margin-bottom: 40px;
+}
+
+#welcome-text{
+    font-family: 'Oswald', sans-serif;
+    font-size: 4rem;
 }
 
 .testimonials .testimonial-author .author {

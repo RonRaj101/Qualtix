@@ -148,8 +148,15 @@ fieldset[disabled] .btn-xl.active {
     color: #C91042;
 }
 
-.feature i {
+.services-section .feature i{
     background: #C91042;
+    border: 0.1rem solid #ffffff;
+}
+
+#industries .feature i{
+    background: white;
+    color: #C91042;
+    border: 0.1rem solid #C91042;
 }
 
 .no-touch .feature:hover i,
