@@ -2047,6 +2047,18 @@ iframe {
 	animation: rotatee 2.0s infinite linear;
 }
 
+#learn-more-btn{
+    text-transform: capitalize;
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    width: 50vw;
+    background: transparent;
+    bottom: 5rem;
+    transform: translateX(-50%);
+    background-color: #C91042;
+}
+
 .dot1, .dot2 {
 	width: 60%;
 	height: 60%;
