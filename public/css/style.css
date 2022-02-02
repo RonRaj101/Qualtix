@@ -2052,7 +2052,7 @@ iframe {
     position: absolute;
     left: 50%;
     right: 50%;
-    width: 50vw;
+    width: 20rem;
     background: transparent;
     bottom: 5rem;
     transform: translateX(-50%);
