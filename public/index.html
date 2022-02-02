@@ -11,9 +11,11 @@
 
     <title>Qualitx</title>
 
-    <!-- Bootstrap Core CSS -->
-    <link href="asset/css/bootstrap.min.css" rel="stylesheet">
-    
+    <!-- Bootstrap Core CSS 
+    <link href="asset/css/bootstrap.min.css" rel="stylesheet">-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+
     <!-- Font Awesome CSS -->
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/duotone.css" integrity="sha384-R3QzTxyukP03CMqKFe0ssp5wUvBPEyy9ZspCB+Y01fEjhMwcXixTyeot+S40+AjZ" crossorigin="anonymous"/>
@@ -51,10 +53,10 @@
 
 <body class="index">
 
-    <!-- Navigation -->
-    <nav class="navbar navbar-light navbar-default navbar-fixed-top">
-        <div class="container" style="padding-right: 0; padding-left: 0;">
-            <!-- Brand and toggle get grouped for better mobile display -->
+   
+    <!-- <nav class="navbar navbar-default navbar-fixed-top" style="overflow: hidden;">
+        <div class="container-fluid" style="padding-right: 0; padding-left: 0;">
+            
             <div class="navbar-header page-scroll">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span>
@@ -67,7 +69,7 @@
                   </a>
             </div>
 
-            <!-- Collect the nav links, forms, and other content for toggling -->
+          
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right" id="main-nav">
                     <li class="hidden">
@@ -91,10 +93,40 @@
                     </li>
                 </ul>
             </div>
-            <!-- /.navbar-collapse -->
+            
         </div>
-        <!-- /.container-fluid -->
-    </nav>
+        
+    </nav> -->
+
+    <nav class="navbar navbar-expand-lg fixed-top navbar-light" style="background-color: #fff;;">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">
+            <img src="images/logo-cropped.png" class="img img-responsive" style="width: 200px;" alt="">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" style="justify-self: self-end;" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#about-us">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#service">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#industries">Industries</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#testimonial">Testimonials</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
 
 
     
@@ -105,12 +137,12 @@
     <section id="page-top">
         <div class="bg-overlay">
             <div class="row text-center">
-                <div class="col-md-12 text-center">
+                <div class="col text-center">
                     <h1 class="animated1">
                         <span id="welcome-text">Welcome to <strong style="color:#C91042; font-size: 5rem;">Qualitx</strong></span>
                     </h1>
                 <br>
-                <a href="#about-us" class="page-scroll btn btn-primary btn-lg animated3" style="text-transform: capitalize;">Learn More</a>
+                <a href="#about-us" class="page-scroll btn btn-lg animated3" style="text-transform: capitalize; background: transparent;">Learn More</a>
             </div>   
             </div>
         </div>
@@ -119,8 +151,8 @@
 
      
     <!-- Start About Us Section -->
-    <section id="about-us" class="about-us-section-1">
-        <div class="container">
+    <section id="about-us" class="about-us-section-1 ">
+        <div class="container mt-5">
             <div class="row">
                 <div class="col-md-12 col-sm-12">
                     <div class="section-title text-start">
@@ -151,8 +183,8 @@ Underlying foundations of the word Qualitx are derived from the word Quality. Th
     
 
      <!-- Start Feature Section -->
-     <section id="service" style="background-color: #f7f7f7;" class="services-section">
-        <div class="container">
+     <section id="service" style="background-color: #f7f7f7;" class="services-section ">
+        <div class="container mt-5">
             <div class="row">
                 <div class="col-md-12">
                     <div class="section-title text-center">
@@ -161,7 +193,7 @@ Underlying foundations of the word Qualitx are derived from the word Quality. Th
                 </div>
             </div><br>
 
-            <div class="row">
+            <div class="row mt-3">
 
                 <div class="col-md-3 col-sm-6 col-xs-6">
                     <div class="feature">
@@ -257,14 +289,14 @@ Underlying foundations of the word Qualitx are derived from the word Quality. Th
         <!-- End Feature Section -->
     <!-- Industries -->
     <section id="industries" class="feature-section">
-        <div class="container">
+        <div class="container mt-5">
             <div class="row">
                 <div class="section-title text-center">
                     <h3>Our Industries</h3>
                 </div> 
             </div>
-            <br>
-            <div class="row">
+            
+            <div class="row mt-3">
                 <div class="col-md-3 col-sm-6 col-xs-6">
                     <div class="feature">
                         <i class="fa fa-shopping-cart"></i>
@@ -387,11 +419,115 @@ Underlying foundations of the word Qualitx are derived from the word Quality. Th
     
     
     <!-- Start Testimonial Section -->
-    <div id="testimonial" class="testimonial-section">
-        <div class="container">
+    <div id="testimonial" class="testimonial-section text-center">
+        <div class="section-title mt-5">
+            <h3>Happy Client Reviews</h3>
+        </div> 
+        <div class="container-fluid mt-3">
             <!-- Start Testimonials Carousel -->
-            <div id="testimonial-carousel" class="testimonials-carousel">
-                <!-- Testimonial 1 -->
+
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <div class="testimonials item">
+                        <div class="testimonial-content">
+                            <div class="testimonial-author">
+                                <div class="author">Tani Kalweit</div>
+                                <div class="designation">Lead Developer</div>
+                            </div>
+                            <p>I have been very impressed with your work the last couple of months.  Your work is always done on time and you have found a couple of critical issues before preventing us from having production errors.  I also appreciate that you are available to run test cases other times throughout the week when we have needed additional testing.  I look forward to continuing to work with you.</p>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="testimonials item">
+                        <div class="testimonial-content">
+                            <div class="testimonial-author">
+                                <div class="author">Adam</div>
+                                <div class="designation">Project Manager</div>
+                            </div>
+                            <p>I have recently had a chance to work with Qualitx. Initially, our contract was for 3 months but later after seeing their skill in regards to Manual testing and automated testing, I have decided to work with them full time. They are now working with us for over a year The Resources provided to me are good, understandable and understand the urgency in terms of completion of work.</p>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="testimonials item">
+                        <div class="testimonial-content">
+                            <div class="testimonial-author">
+                                <div class="author">Lucas Radke</div>
+                                <div class="designation">Product Manager</div>
+                            </div>
+                            <p>We worked together with Abdul / Qualitx now multiple times in the past to test our machine learning algorithms and we couldn't be happier with the results. They delivered not only fast but in a fantastic quality helping us to test and proof our algorithm.
+                            </p>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+               
+                
+              </div>
+
+            <!-- <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+
+                    <div class="testimonials item">
+                        <div class="testimonial-content">
+                            <div class="testimonial-author">
+                                <div class="author">Tani Kalweit</div>
+                                <div class="designation">Lead Developer</div>
+                            </div>
+                            <p>I have been very impressed with your work the last couple of months.  Your work is always done on time and you have found a couple of critical issues before preventing us from having production errors.  I also appreciate that you are available to run test cases other times throughout the week when we have needed additional testing.  I look forward to continuing to work with you.</p>
+                        </div>
+                    </div>
+
+                  </div>
+                  <div class="carousel-item">
+                    
+                    <div class="testimonials item">
+                        <div class="testimonial-content">
+                            <div class="testimonial-author">
+                                <div class="author">Adam</div>
+                                <div class="designation">Project Manager</div>
+                            </div>
+                            <p>I have recently had a chance to work with Qualitx. Initially, our contract was for 3 months but later after seeing their skill in regards to Manual testing and automated testing, I have decided to work with them full time. They are now working with us for over a year The Resources provided to me are good, understandable and understand the urgency in terms of completion of work.</p>
+                        </div>
+                    </div>
+
+                  </div>
+                  <div class="carousel-item">
+                   
+                    <div class="testimonials item">
+                        <div class="testimonial-content">
+                            <div class="testimonial-author">
+                                <div class="author">Lucas Radke</div>
+                                <div class="designation">Product Manager</div>
+                            </div>
+                            <p>We worked together with Abdul / Qualitx now multiple times in the past to test our machine learning algorithms and we couldn't be happier with the results. They delivered not only fast but in a fantastic quality helping us to test and proof our algorithm.
+                            </p>
+                        </div>
+                    </div>
+
+                  </div>
+                
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" style="" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div> -->
+
+            <!-- <div id="testimonial-carousel" class="testimonials-carousel">
+                
                 <div class="testimonials item">
                     <div class="testimonial-content">
                         <div class="testimonial-author">
@@ -401,7 +537,7 @@ Underlying foundations of the word Qualitx are derived from the word Quality. Th
                         <p>I have been very impressed with your work the last couple of months.  Your work is always done on time and you have found a couple of critical issues before preventing us from having production errors.  I also appreciate that you are available to run test cases other times throughout the week when we have needed additional testing.  I look forward to continuing to work with you.</p>
                     </div>
                 </div>
-                <!-- Testimonial 2 -->
+                
                 <div class="testimonials item">
                     <div class="testimonial-content">
                         <div class="testimonial-author">
@@ -411,7 +547,7 @@ Underlying foundations of the word Qualitx are derived from the word Quality. Th
                         <p>I have recently had a chance to work with Qualitx. Initially, our contract was for 3 months but later after seeing their skill in regards to Manual testing and automated testing, I have decided to work with them full time. They are now working with us for over a year The Resources provided to me are good, understandable and understand the urgency in terms of completion of work.</p>
                     </div>
                 </div>
-                <!-- Testimonial 3 -->
+                
                 <div class="testimonials item">
                     <div class="testimonial-content">
                         <div class="testimonial-author">
@@ -422,7 +558,7 @@ Underlying foundations of the word Qualitx are derived from the word Quality. Th
                         </p>
                     </div>
                 </div>
-            </div>
+            </div> -->
             <!-- End Testimonials Carousel -->
         </div>
     </div>
@@ -431,9 +567,9 @@ Underlying foundations of the word Qualitx are derived from the word Quality. Th
     
 
    
-    <section id="contact" class="contact">
-        <div class="container">
-            <div class="row">
+    <section id="contact" class="contact ">
+        
+            <div class="row mt-5">
                 <div class="col-lg-12">
                     <div class="section-title text-center">
                         <h3>Contact Us</h3>
@@ -484,7 +620,10 @@ Underlying foundations of the word Qualitx are derived from the word Quality. Th
                         </ul>
                     </div>
                 </div>
-                <div class="col-md-4 col-md-offset-4">
+
+                <div class="col-md-4"></div>
+                
+                <div class="col-md-4">
                     <div class="footer-contact-info">
                         <h4>Our Office</h4>
                         <ul>
@@ -498,29 +637,30 @@ Underlying foundations of the word Qualitx are derived from the word Quality. Th
         <footer class="style-1">
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-md-4 col-xs-12">
-                       
+                    <div class="col">
+                        
+                        ©Qualtix 2022
                     </div>
-                    <div class="col-md-4 col-xs-12">
+                    <div class="col-md-6 col-12">
                         <div class="footer-social text-center">
-                            <ul>
-                                <li><a target="_blank" href="https://twitter.com/Qualitxinc"><i class="fab fa-twitter"></i></a></li>
-                                <li><a target="_blank" href="https://www.facebook.com/qualitxinc"><i class="fab fa-facebook"></i></a></li>
-                                <li><a target="_blank" href="https://www.linkedin.com/company/qualitxinc"><i class="fab fa-linkedin"></i></a></li>
-                                <li><a target="_blank" href="https://www.instagram.com/qualitxinc"><i class="fab fa-instagram"></i></a></li>
-                                <li><a target="_blank" href="mailto:contact@qualitxinc.com"><i class="fab fa-google-plus-g"></i></a></li>
+                            <ul class="row-6">
+                                <li class="col"><a target="_blank" href="https://twitter.com/Qualitxinc"><i class="fab fa-twitter"></i></a></li>
+                                <li class="col"><a target="_blank" href="https://www.facebook.com/qualitxinc"><i class="fab fa-facebook"></i></a></li>
+                                <li class="col"><a target="_blank" href="https://www.linkedin.com/company/qualitxinc"><i class="fab fa-linkedin"></i></a></li>
+                                <li class="col"><a target="_blank" href="https://www.instagram.com/qualitxinc"><i class="fab fa-instagram"></i></a></li>
+                                <li class="col"><a target="_blank" href="mailto:contact@qualitxinc.com"><i class="fab fa-google-plus-g"></i></a></li>
                             </ul>
                         </div>
                     </div>
-                    <div class="col-md-4 col-xs-12">
-                        <div class="footer-link">
-                            <ul class="pull-right">
-                                <li><a href="#">Privacy Policy</a>
-                                </li>
-                                <li><a href="#">Terms of Use</a>
-                                </li>
-                            </ul>
-                        </div>
+                    <div class="col">
+                       
+                            <div class="row">
+                                
+                                <a class="col" href="#">Privacy Policy</a>
+                                <span class="col-1"></span>
+                                <a class="col" href="#">Terms of Use</a>
+                            </div>
+                       
                     </div>
                 </div>
             </div>
@@ -540,8 +680,9 @@ Underlying foundations of the word Qualitx are derived from the word Quality. Th
     <!-- jQuery Version 2.1.1 -->
     <script src="js/jquery-2.1.1.min.js"></script>
 
-    <!-- Bootstrap Core JavaScript -->
-    <script src="asset/js/bootstrap.min.js"></script>
+    <!-- Bootstrap Core JavaScript
+    <script src="asset/js/bootstrap.min.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
     <!-- Plugin JavaScript -->
     <script src="js/jquery.easing.1.3.js"></script>

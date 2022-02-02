@@ -2,6 +2,15 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,700,600,400italic);
 @import url(https://fonts.googleapis.com/css?family=Oswald:300,400,700);
 @import "color/light-red.css"; 
+
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='C91042' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='C91042' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+
 body {
     overflow-x: hidden;
     font-family: 'Open Sans', sans-serif;
@@ -605,6 +614,24 @@ li {
 	right: 0;
 }
 
+.carousel-item{
+    text-align: start;
+}
+
+.carousel-inner > .carousel-item{
+    padding: 10vw;
+}
+
+.carousel-indicators > .active{
+    background-color: #C91042;
+}
+
+.carousel-indicators{
+    background-color: #777;
+}
+
+
+
 #main-slide .carousel-control i{
 	background: rgba(0,0,0,.7);
 	color: #fff;
@@ -829,7 +856,7 @@ li {
 .feature i,
 .feature-3 i {
     font-size:2.5em;
-    width: 80px;
+    width: 90px;
    padding:18px;
     margin-bottom: 10px;
    position: relative;
@@ -1290,14 +1317,14 @@ and (min-width : 551px){
 /*************** Testimonials ***************/
 
 .testimonial-section {
-    background: Url(../images/parallax/testimonial-bg.jpg) no-repeat;
+    background: #f7f7f7;
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
     padding-top: 120px;
     padding-bottom: 120px;
     color: #fff;
-	text-align: left;
+	text-align: start;
 	position: relative;
 }
 
@@ -1315,7 +1342,7 @@ and (min-width : 551px){
 	/* font-style: italic; */
 	font-weight: 400;
     margin-bottom: 40px;
-	color: #fff;
+	color: black;
 }
 
 .testimonials .testimonial-content {
@@ -1337,7 +1364,7 @@ and (min-width : 551px){
     padding-bottom: 5px;
 }
 .testimonials .testimonial-author .designation {
-    color: #d3d3d3;
+    color: #909090;
 }
 
 .touch-slider .owl-controls.clickable .owl-buttons div:hover {
@@ -1489,6 +1516,9 @@ and (min-width : 551px){
     margin-top: 30px;
 }
 
+.navbar-nav li{
+    padding: 0.5rem;
+}
 
 .footer-contact-info {
     color: #fff;
