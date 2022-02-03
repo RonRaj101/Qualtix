@@ -230,10 +230,6 @@ li {
     border-radius: 1rem;
 }
 
-#main-nav li{
-    
-}
-
 #about-us-text{
     line-height: 2;
 }
@@ -619,7 +615,7 @@ li {
 }
 
 .carousel-inner > .carousel-item{
-    padding: 10vw;
+    padding: 2vw;
 }
 
 .carousel-indicators > .active{
@@ -627,9 +623,24 @@ li {
 }
 
 .carousel-indicators{
-    background-color: #777;
+    background-color: #f7f7f7;
     width: auto;
     padding: 0.5rem;
+}
+
+@media (max-width : 768px) {
+    
+    #bottom-links{
+        margin-top: 2rem;
+    }
+}
+
+#bottom-links  a{
+    text-decoration: none;
+}
+
+.nav-link :active{
+    color: #C91042 !important;
 }
 
 
@@ -1373,13 +1384,7 @@ and (min-width : 551px){
     color: #909090;
 }
 
-.touch-slider .owl-controls.clickable .owl-buttons div:hover {
-	/* //background-color: #00afd1; */
-}
 
-.touch-carousel .owl-controls.clickable .owl-buttons div:hover {
-	/* //background-color: #00afd1; */
-}
 
 .testimonials-carousel .owl-controls.clickable .owl-buttons div{
     background: none;
@@ -2057,6 +2062,11 @@ iframe {
     bottom: 5rem;
     transform: translateX(-50%);
     background-color: #C91042;
+}
+
+.nav-pills .nav-link.active{
+    padding: 0.75rem;
+    background-color:#C91042 ;
 }
 
 .dot1, .dot2 {
