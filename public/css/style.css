@@ -78,6 +78,11 @@ li {
     color: #fff !important;
 }
 
+section{
+    max-width: 100vw;
+    overflow-x: hidden;
+}
+
 .section-title h3{
     color: #666;
     /*font-style: italic; */
@@ -812,15 +817,29 @@ li {
     
 }
 
+
 .bg-overlay {
-    background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url(../images/banner.jpg);
+    background: url(../images/banner.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center center;
+    background-position: center;
     color: #fff;
-    height: 50rem;
-    padding-top: 20rem;
+    padding-top: 40rem;
+    width: 100%;
+    height: auto;
 }
+
+@media (max-width : 479px) {
+
+    .bg-overlay {
+
+        background-size: cover;
+        background-position: center;
+        padding-top: 28rem;
+    }
+    
+}
+
 /*------------------------------------------------------ */
 /* Start Feature Section                              */
 /*------------------------------------------------------ */
@@ -2054,13 +2073,10 @@ iframe {
 
 #learn-more-btn{
     text-transform: capitalize;
-    position: absolute;
-    left: 50%;
-    right: 50%;
+    position: relative;
     width: 20rem;
     background: transparent;
     bottom: 5rem;
-    transform: translateX(-50%);
     background-color: #C91042;
 }
 
