@@ -46,6 +46,42 @@ p {
 }
 
 
+#tools .item {
+    transform: rotate(-90deg); 
+  }
+  .owl-carousel{
+    transform: rotate(90deg);
+    margin-top: 10rem;
+    height: 10rem;
+    width: 20rem;
+    padding:1rem;
+    
+    border-right: 1px solid black;
+  }
+
+  .owl-theme .owl-dots .owl-dot {
+    display: none;
+  }
+  .owl-carousel .owl-item img{
+    width: 100%;
+    object-fit: scale-down;
+  }
+  /* fix blank or flashing items on carousel */
+  .owl-carousel .item {
+    position: relative;
+    z-index: 100; 
+    -webkit-backface-visibility: hidden; 
+   
+  }
+  
+  /* end fix */
+  .owl-nav > div {
+    margin-top: -26px;
+    position: absolute;
+    top: 50%;
+    color: #cdcbcd;
+  }
+  
 
 a,
 a:hover,
@@ -844,6 +880,10 @@ section{
 /* Start Feature Section                              */
 /*------------------------------------------------------ */
 
+#service .feature{
+    text-align: justify;
+    width: fit-content;
+}
 
 .services-section {
     padding-top: 80px;
@@ -880,7 +920,7 @@ section{
 .feature-2 p,
 .feature-3 p {
     color: #444;
-    font-size: 13px;
+    font-size: 1rem;
     line-height: 20px;
     font-weight: 300;
 }
