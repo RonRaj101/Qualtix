@@ -46,18 +46,47 @@ p {
 }
 
 
-#tools .item {
+    #tools .item {
     transform: rotate(-90deg); 
-  }
+    }
   .owl-carousel{
     transform: rotate(90deg);
     margin-top: 10rem;
     height: 10rem;
     width: 20rem;
     padding:1rem;
-    
-    border-right: 1px solid black;
   }
+
+  #marquee-tools .row{
+    height: 70vh;
+  }
+
+  @media only screen and (max-width: 767px) {
+    #tools .item {
+        transform: rotate(0deg); 
+    }
+    .owl-carousel{
+        transform: rotate(0deg);
+        margin-left: 25%;
+        height: 7rem;
+        margin-top: 5rem;
+      }
+      #marquee-tools .row {
+        height: 100vh;
+    }
+  }
+
+  @media only screen and (max-width: 992px) {
+    #marquee-tools{
+        margin-top: 7rem;
+    }
+    #marquee-tools .row {
+        height: 100vh;
+    }
+    
+  }
+
+
 
   .owl-theme .owl-dots .owl-dot {
     display: none;
@@ -81,7 +110,14 @@ p {
     top: 50%;
     color: #cdcbcd;
   }
-  
+
+  #industries{
+    background-color: #f7f7f7;
+  }
+
+  .feature > h4{
+    font-weight: bolder;
+  }
 
 a,
 a:hover,
@@ -904,7 +940,7 @@ section{
 .feature-3 h4 {
     font-size: 15px;
     color: #666;
-    font-weight: 300;
+    font-weight: 500;
     font-family: 'Oswald', sans-serif;
 }
 
